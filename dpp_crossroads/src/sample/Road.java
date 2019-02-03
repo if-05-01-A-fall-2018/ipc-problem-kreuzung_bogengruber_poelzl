@@ -1,3 +1,5 @@
+package sample;
+
 public class Road {
     String direction;
     private int id;
@@ -11,7 +13,7 @@ public class Road {
         this.direction = direction;
         this.numberOfRoads = numberOfRoads;
         this.id = id;
-        left = (id + numberOfRoads - 1) % numberOfRoads;
+        left = (id + 1) % numberOfRoads;
         right = (id + numberOfRoads - 1) % numberOfRoads;
         this.isOccupied = isOccupied;
     }
@@ -20,6 +22,10 @@ public class Road {
 
     public void drive(){
         isOccupied = false;
+    }
+
+    public int getId(){
+        return id;
     }
 
 }
