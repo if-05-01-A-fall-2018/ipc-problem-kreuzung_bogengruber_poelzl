@@ -15,6 +15,7 @@ public class Controller implements Initializable {
 
     Road selectedRoad;
     Kiwara kiwara;
+    String kreuzung = "src/road.png";
     String obenweiss = "src/pfeil_weiss_oben.png";
     String untenweiss = "src/pfeil_weiss_unten.png";
     String linksweiss = "src/pfeil_weiss_links.png";
@@ -236,6 +237,21 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        int height = 100;
+        int width = 100;
+        middleImageView.setFitHeight(200);
+        middleImageView.setFitWidth(150);
+        lowerImageView.setFitHeight(height);
+        lowerImageView.setFitWidth(width);
+        leftImageView.setFitHeight(height);
+        leftImageView.setFitWidth(width);
+        upperImageView.setFitHeight(height);
+        upperImageView.setFitWidth(width);
+        rightImageView.setFitHeight(height);
+        rightImageView.setFitWidth(width);
+        File file = new File(kreuzung);
+        Image road = new Image(file.toURI().toString());
+        middleImageView.setImage(road);
         setup();
     }
 
@@ -246,9 +262,6 @@ public class Controller implements Initializable {
         Road fourthRoad = new Road("", 3, 4, false);
         Road[] roads = new Road[]{firstRoad, secondRoad, thirdRoad, fourthRoad};
         kiwara = new Kiwara(roads);
-        File file = new File("src/road.jpg");
-        Image road = new Image(file.toURI().toString());
-        middleImageView.setImage(road);
     }
 
     public void updateDriven(){
