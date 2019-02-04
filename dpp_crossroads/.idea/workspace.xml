@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dpp_crossroads/road.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dpp_crossroads/road.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dpp_crossroads/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dpp_crossroads/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dpp_crossroads/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dpp_crossroads/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dpp_crossroads/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dpp_crossroads/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,12 +96,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="8" />
-          <entry key="java" value="366" />
+          <entry key="java" value="449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="366" />
+          <entry key="JAVA" value="449" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -134,11 +127,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="238" column="67" selection-start-line="238" selection-start-column="67" selection-end-line="238" selection-end-column="67" />
+            <state relative-caret-position="476">
+              <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2430#4880#0" />
+                <element signature="e#1982#2424#0" />
+                <element signature="e#4886#5219#0" />
+                <element signature="e#5225#5561#0" />
+                <element signature="e#5786#6012#0" />
+                <element signature="e#6128#6256#0" />
+                <element signature="e#6262#6389#0" />
                 <element signature="e#6395#6524#0" />
                 <element signature="e#6530#6657#0" />
                 <element signature="e#6774#6884#0" />
@@ -205,7 +203,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1614" />
@@ -256,7 +254,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549271183299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549288623152" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
@@ -361,12 +359,12 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1549216490881" duration="8475000" />
-      <workItem from="1549263526035" duration="7335000" />
+      <workItem from="1549263526035" duration="11324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17112000" />
+    <option name="totallyTimeSpent" value="21101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -493,11 +491,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="238" column="67" selection-start-line="238" selection-start-column="67" selection-end-line="238" selection-end-column="67" />
+        <state relative-caret-position="476">
+          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2430#4880#0" />
+            <element signature="e#1982#2424#0" />
+            <element signature="e#4886#5219#0" />
+            <element signature="e#5225#5561#0" />
+            <element signature="e#5786#6012#0" />
+            <element signature="e#6128#6256#0" />
+            <element signature="e#6262#6389#0" />
             <element signature="e#6395#6524#0" />
             <element signature="e#6530#6657#0" />
             <element signature="e#6774#6884#0" />

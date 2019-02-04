@@ -106,6 +106,8 @@ public class Controller implements Initializable {
         }
     }
 
+
+
     private File getPath(Road r, int gruen) {
         if(gruen == 0){
             switch (r.getId()){
