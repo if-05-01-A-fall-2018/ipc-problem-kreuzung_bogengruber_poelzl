@@ -64,6 +64,7 @@ public class Kiwara{
             if(roads[i].direction.equals("R")){
                 roads[i].drive();
                 roads[roads[i].right].drive();
+                return true;
             }
         }
         return true;
@@ -99,6 +100,8 @@ public class Kiwara{
                 for (int i = 0; i < roads.length; i++) {
                     if(roads[i].direction.equals("S") && roads[roads[roads[i].right].right].direction.equals("S")){
                         roads[i].drive();
+                        roads[roads[roads[i].right].right].drive();
+                        return;
                     }
                     else if(roads[i].direction.equals("R")){
                         roads[i].drive();

@@ -16,9 +16,9 @@ public class Controller implements Initializable {
     Road selectedRoad;
     Kiwara kiwara;
     String obenweiss = "src/pfeil_weiss_oben.png";
-    String untenweiss = "src/pfeil_weiss_unten.jpg";
-    String linksweiss = "src/pfeil_weiss_links.jpg";
-    String rechtsweiss = "src/pfeil_weiss_rechts.jpg";
+    String untenweiss = "src/pfeil_weiss_unten.png";
+    String linksweiss = "src/pfeil_weiss_links.png";
+    String rechtsweiss = "src/pfeil_weiss_rechts.png";
     String obengruen = "src/pfeil_gruen_oben.png";
     String untengruen = "src/pfeil_gruen_unten.png";
     String linksgruen = "src/pfeil_gruen_links.png";
